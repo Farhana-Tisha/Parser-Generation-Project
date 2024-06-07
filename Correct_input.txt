@@ -1,0 +1,46 @@
+import_sapphire
+import_string_h
+
+def_a:2
+
+@base:
+{
+
+a=1
+b=6
+if(a>b)
+	{
+	out:a
+	}
+
+in:c
+
+loop(i = 1>> j = 10,5)
+	{
+
+	loop(i = 1>> j = 10,5)
+		{
+
+			a++
+			br
+		
+		}
+	
+
+
+	}
+
+	func1(2)
+
+if(a>b)
+	{
+	if(b>c)
+	    {
+		c++
+
+	    }
+	}
+
+
+
+}
